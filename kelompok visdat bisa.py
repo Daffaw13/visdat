@@ -6,10 +6,7 @@ from bokeh.models import ColumnDataSource
 from bokeh.models.tools import HoverTool
 from bokeh.models.widgets import Tabs, Panel
 
-from google.colab import drive
-drive.mount('/content/drive')
-
-df = pd.read_csv("drive/My Drive/Colab Notebooks/stock_market.csv") 
+df = pd.read_csv("data/stock_market.csv") 
 df
 
 """# Level 1
